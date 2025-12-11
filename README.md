@@ -37,7 +37,8 @@ A full-stack web application for managing sports facility court bookings with mu
 1. Navigate to backend directory:
    ```bash
    cd backend
-
+## Project Structure
+```
 sports-facility-booking/
 ├── backend/
 │   ├── config/
@@ -96,3 +97,4 @@ sports-facility-booking/
     ├── .env
     ├── package.json
     └── tailwind.config.js
+```
