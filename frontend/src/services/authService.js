@@ -15,7 +15,11 @@ export const authService = {
                 secure: true, 
                 sameSite: 'Strict'
             });
-            Cookies.set('user', JSON.stringify(response.data.user));
+            Cookies.set('user', JSON.stringify(response.data.user),{ 
+                expires: 90,
+                secure: true, 
+                sameSite: 'Strict'
+            });
         }
         return response.data;
     },
