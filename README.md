@@ -237,3 +237,9 @@ sports-facility-booking/
 http://localhost:3000
 ```
 
+## Author
+**Sanjeevan Thangaraj**  
+📧 [sanjeevan1122003@gmail.com]  
+🔗 [GitHub Profile](https://github.com/Sanjeevan1122003/)
+
+⭐ **If you like this project, consider giving it a star on GitHub!**
