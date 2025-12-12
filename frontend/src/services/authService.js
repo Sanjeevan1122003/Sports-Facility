@@ -13,12 +13,12 @@ export const authService = {
             Cookies.set('token', response.data.token, { 
                 expires: 90,
                 secure: true, 
-                sameSite: 'Strict'
+                sameSite: 'Lax'
             });
             Cookies.set('user', JSON.stringify(response.data.user),{ 
                 expires: 90,
                 secure: true, 
-                sameSite: 'Strict'
+                sameSite: 'Lax'
             });
         }
         return response.data;
