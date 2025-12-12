@@ -30,10 +30,10 @@ const seedData = async () => {
         console.log('Admin user created');
 
         const user = new User({
-            name: 'John Doe',
-            email: 'john@example.com',
+            name: 'Sanjeevan',
+            email: 'sanjeevan@example.com',
             password: 'password123',
-            phone: '9876543210',
+            phone: '0987654321',
             role: 'user'
         });
         await user.save();
