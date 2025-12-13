@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { GiTrophy } from "react-icons/gi";
 import { Link, useNavigate } from 'react-router-dom';
 import { authService } from '../services/authService';
 
@@ -18,7 +19,8 @@ const Navbar = () => {
                 <div className="flex justify-between h-16">
                     <div className="flex">
                         <div className="flex-shrink-0 flex items-center">
-                            <Link to="/" className="text-2xl font-bold text-primary-600">
+                            <GiTrophy className="text-primary-600 text-4xl mr-3" />
+                            <Link to="/" className="hidden sm:block text-xl md:text-2xl font-bold text-primary-600">
                                 Sports Facility
                             </Link>
                         </div>
